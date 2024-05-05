@@ -680,3 +680,59 @@ h6,
     color: var(--bs-secondary) !important;
 }
 /*** Footer End ***/
+
+
+.banner-container {
+    position:absolute;
+    top: 60%;
+    right: 2%;
+    transform: translateY(-50%);
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.banner-img {
+    max-width: 350px;
+    height: auto;
+}
+
+.close-btn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: #f00;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+/* Media Queries for Responsive Design */
+@media (min-width: 576px) {
+    /* Adjustments for smaller devices */
+    .banner-container {
+        max-width: 80%; /* Decrease the maximum width on smaller screens */
+    }
+}
+
+@media (min-width: 768px) {
+    /* Adjustments for tablets and larger devices */
+    .banner-container {
+        max-width: 70%; /* Decrease the maximum width on tablets */
+    }
+}
+
+@media (min-width: 992px) {
+    /* Adjustments for medium devices */
+    .banner-container {
+        max-width: 60%; /* Decrease the maximum width on medium devices */
+    }
+}
+
+@media (min-width: 1200px) {
+    /* Adjustments for large devices */
+    .banner-container {
+        max-width: 50%; /* Decrease the maximum width on large devices */
+    }
+}
