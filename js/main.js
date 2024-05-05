@@ -81,3 +81,7 @@
 
 })(jQuery);
 
+
+function removeBanner() {
+    document.querySelector('.banner-container').style.display = 'none';
+}
